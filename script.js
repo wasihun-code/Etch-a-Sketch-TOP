@@ -1,11 +1,14 @@
 var sizeGrid = 16;
-var gridWidth = 20;
-var containerWidth = (sizeGrid * gridWidth) + "px";
+
 
 
 // Creat container for the grids and make it visible
 let container = document.createElement('div');
 document.body.append(container);
+
+var gridWidth = 20;
+var containerWidth = (sizeGrid * gridWidth) + "px";
+
 
 // Call to the createGrid function
 createGrid();
